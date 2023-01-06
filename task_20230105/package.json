@@ -1,0 +1,23 @@
+{
+  "name": "cuisinebo",
+  "version": "1.0.0",
+  "description": "Clone this repository and run the command below to install the project's dependencies",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss:css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M1-0922/WebDev1-401-exe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/M1-0922/WebDev1-401-exe/issues"
+  },
+  "homepage": "https://github.com/M1-0922/WebDev1-401-exe#readme"
+}

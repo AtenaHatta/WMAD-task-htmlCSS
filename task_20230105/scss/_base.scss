@@ -1,0 +1,45 @@
+$color-text: rgb(13, 13, 37);
+$color-main: rgb(255, 136, 0);
+$color-accent: rgb(255, 170, 77);
+$color-star: rgb(255, 196, 21);
+$color-grey: rgb(247, 247, 248);
+
+$font-lato: "Lato", sans-serif;
+$font-playFair: "Playfair Display", serif;
+
+$maincolor: rgb(255, 136, 0);
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+@mixin flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ } 
+
+ @mixin bg-img($path, $size: cover, $pos: center center, $repeat: no-repeat) {
+  background-image: url($path);
+  background-size: $size;
+  background-position: $pos;
+  background-repeat: $repeat;
+}
+
+@mixin gallarysize{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@for $i from 1 through 8 {
+  .img#{$i} {
+    width: 20px * $i;  
+ }
+}
